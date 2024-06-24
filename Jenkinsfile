@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('print on shell') {
+      steps {
+        sh 'ls'
+      }
+    }
+
   }
 }
