@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('check') {
+      steps {
+        echo 'done'
+      }
+    }
+
   }
 }
