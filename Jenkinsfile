@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git(url: 'https://github.com/Bambara123/devops-practice-test-react-app', branch: 'main')
+        git(url: 'https://github.com/Bambara123/devops-practice-test-react-app', branch: 'master')
       }
     }
 
